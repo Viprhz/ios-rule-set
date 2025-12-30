@@ -1,0 +1,37 @@
+# ==================================================
+# YouTube-Plus.list
+# Author: Ronny
+# Purpose: Full semantic coverage for YouTube traffic
+# Strategy: Cover all domains actually used by YouTube
+# Updated: 2025-12-31
+# ==================================================
+
+# --- Core YouTube Domains ---
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+
+# --- Video / Media CDN ---
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ggpht.com
+
+# --- YouTube API (googleapis, explicit) ---
+DOMAIN-SUFFIX,youtube.googleapis.com
+DOMAIN-SUFFIX,youtubei.googleapis.com
+DOMAIN-SUFFIX,youtubeembeddedplayer.googleapis.com
+
+# --- YouTube Data & Player API ---
+# Used by web / mobile client for metadata & playback
+DOMAIN-SUFFIX,www.googleapis.com
+
+# --- YouTube Analytics / Reporting ---
+DOMAIN-SUFFIX,youtubeanalytics.googleapis.com
+DOMAIN-SUFFIX,youtubereporting.googleapis.com
+
+# --- GAPI Content backend (observed in YouTube flows) ---
+DOMAIN-SUFFIX,content.googleapis.com
+
+# --- Optional / Observational (commented by default) ---
+# DOMAIN-SUFFIX,ytcfg.googleapis.com
+# DOMAIN-SUFFIX,googleusercontent.com
