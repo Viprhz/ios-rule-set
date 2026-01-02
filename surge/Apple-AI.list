@@ -1,0 +1,23 @@
+# Apple-AI.list
+# Purpose: Apple Intelligence / Siri / Assistant related domains and process hints
+# Source: extracted from Surge-AINet-v1.0.conf
+# Extracted-Date: 2026-01-02
+# Notes:
+#  - This list is focused on Apple Intelligence (Siri/assistant/search/location/relay).
+#  - Recommend to put this RULE-SET high in your [Rule] order so Apple AI flows hit it before generic Google/Streaming rules.
+#  - Map the list to your AI proxy policy group (example: "🤖 AI-Service").
+#
+# Domain rules (explicit)
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,geo.apple.com
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+
+# Process-name based routing (useful on macOS client apps supporting PROCESS-NAME rules)
+PROCESS-NAME,assistantd
+PROCESS-NAME,siri
+PROCESS-NAME,searchd
+PROCESS-NAME,geod
+PROCESS-NAME,locationd
