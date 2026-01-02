@@ -1,0 +1,30 @@
+# ================================
+# App-Gemini.list
+# Purpose: Gemini AI / NotebookLM / AI Studio
+# Route to: 🇸🇬 新加坡-锚定
+# ================================
+
+# --- Core AI Apps ---
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,makersuite.google.com
+
+# --- DeepMind / Model Backend ---
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,generativeai.google
+
+# --- AI Runtime / Backend ---
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+
+# --- Auth / Session ---
+DOMAIN-SUFFIX,accounts.google.com
+
+# --- Developer / Notebook ---
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,notebooklm
+
+# --- Third-party AI (optional) ---
+DOMAIN-SUFFIX,banana.dev
