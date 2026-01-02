@@ -1,0 +1,31 @@
+# ================================
+# Google-Core.list
+# Purpose: Google services except YouTube & Gemini
+# Route to: Google-Core (SG first, HK fallback)
+# ================================
+
+# --- Core Google ---
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,gstatic.com
+
+# --- Account / Sync ---
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,account.google.com
+
+# --- Search / Photos / Drive ---
+DOMAIN-SUFFIX,photos.google.com
+DOMAIN-SUFFIX,drive.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,calendar.google.com
+DOMAIN-SUFFIX,mail.google.com
+
+# --- Maps / Location ---
+DOMAIN-SUFFIX,maps.google.com
+
+# --- Chrome / Update ---
+DOMAIN-SUFFIX,chrome.google.com
+DOMAIN-SUFFIX,tools.google.com
+
+# --- Common APIs (non-AI, non-YouTube) ---
+DOMAIN-SUFFIX,apis.google.com
