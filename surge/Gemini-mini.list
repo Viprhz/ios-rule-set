@@ -18,8 +18,10 @@ DOMAIN-SUFFIX,generativeai.google
 # --- AI Runtime / Backend ---
 DOMAIN-SUFFIX,ia-pa.googleapis.com
 DOMAIN-SUFFIX,jnn-pa.googleapis.com
+DOMAIN-SUFFIX,speech.googleapis.com
 DOMAIN-SUFFIX,assistant-pa.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimessages-pa.googleapis.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,alkalicognitivedispatch-pa.googleapis.com
 
