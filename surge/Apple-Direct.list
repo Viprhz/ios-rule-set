@@ -1,0 +1,41 @@
+# Apple 账户 / 系统身份
+DOMAIN-SUFFIX,appleid.apple.com,DIRECT
+DOMAIN-SUFFIX,idmsa.apple.com,DIRECT
+DOMAIN-SUFFIX,identity.apple.com,DIRECT
+
+# iCloud 核心
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+
+# 系统更新 / 校验
+DOMAIN-SUFFIX,mesu.apple.com,DIRECT
+DOMAIN-SUFFIX,swscan.apple.com,DIRECT
+DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
+
+# Apple Push Notification Service
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-SUFFIX,api.push.apple.com,DIRECT
+
+# 实时服务 / 通信
+DOMAIN-SUFFIX,gc.apple.com,DIRECT        # Game Center / Find My / 社交
+DOMAIN-SUFFIX,call.apple.com,DIRECT      # FaceTime / 通话信令
+
+# App Store
+DOMAIN-SUFFIX,itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,apps.apple.com,DIRECT
+DOMAIN-SUFFIX,buy.itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,store.apple.com,DIRECT
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
+
+# Apple CDN / 边缘
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,akadns.net,DIRECT
+DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+
+# Apple IPv6 安全放行
+DOMAIN-SUFFIX,icloud.com,DIRECT
+DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+DOMAIN-SUFFIX,gc.apple.com,DIRECT
+DOMAIN-SUFFIX,push.apple.com,DIRECT
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
