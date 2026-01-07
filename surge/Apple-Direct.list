@@ -1,41 +1,79 @@
-# Apple 账户 / 系统身份
+# === Apple - Critical DIRECT domains  ===
+# Authentication / Apple ID
 DOMAIN-SUFFIX,appleid.apple.com,DIRECT
 DOMAIN-SUFFIX,idmsa.apple.com,DIRECT
 DOMAIN-SUFFIX,identity.apple.com,DIRECT
+DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
 
-# iCloud 核心
+# iCloud core
 DOMAIN-SUFFIX,icloud.com,DIRECT
 DOMAIN-SUFFIX,icloud-content.com,DIRECT
+DOMAIN-SUFFIX,statici.icloud.com,DIRECT
+DOMAIN-SUFFIX,static.ips.apple.com,DIRECT
 DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
 
-# 系统更新 / 校验
+# Device activation / system checks
+DOMAIN-SUFFIX,albert.apple.com,DIRECT
+DOMAIN-SUFFIX,gs.apple.com,DIRECT
+DOMAIN-SUFFIX,humb.apple.com,DIRECT
+DOMAIN-SUFFIX,sq-device.apple.com,DIRECT
+DOMAIN-SUFFIX,tbsc.apple.com,DIRECT
 DOMAIN-SUFFIX,mesu.apple.com,DIRECT
 DOMAIN-SUFFIX,swscan.apple.com,DIRECT
 DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
 
-# Apple Push Notification Service
+# Push / APNs
 DOMAIN-SUFFIX,push.apple.com,DIRECT
 DOMAIN-SUFFIX,api.push.apple.com,DIRECT
+# wildcard push (MDM/APNs)
+DOMAIN-SUFFIX,push.apple.com,DIRECT
 
-# 实时服务 / 通信
-DOMAIN-SUFFIX,gc.apple.com,DIRECT        # Game Center / Find My / 社交
-DOMAIN-SUFFIX,call.apple.com,DIRECT      # FaceTime / 通话信令
+# Time / NTP (explicit hostnames)
+DOMAIN-SUFFIX,time.apple.com,DIRECT
+DOMAIN-SUFFIX,time-ios.apple.com,DIRECT
+DOMAIN-SUFFIX,time-macos.apple.com,DIRECT
+# also ensure UDP 123 is allowed in Surge network settings (if you use UDP rules)
 
-# App Store
+# MDM / Enrollment / Profiles
+DOMAIN-SUFFIX,iprofiles.apple.com,DIRECT
+DOMAIN-SUFFIX,mdmenrollment.apple.com,DIRECT
+DOMAIN-SUFFIX,deviceenrollment.apple.com,DIRECT
+DOMAIN-SUFFIX,deviceservices-external.apple.com,DIRECT
+DOMAIN-SUFFIX,gdmf.apple.com,DIRECT
+DOMAIN-SUFFIX,axm-servicediscovery.apple.com,DIRECT
+DOMAIN-SUFFIX,axm-adm-enroll.apple.com,DIRECT
+DOMAIN-SUFFIX,axm-adm-mdm.apple.com,DIRECT
+
+# App Store / iTunes / VPP
 DOMAIN-SUFFIX,itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,apps.apple.com,DIRECT
 DOMAIN-SUFFIX,buy.itunes.apple.com,DIRECT
 DOMAIN-SUFFIX,store.apple.com,DIRECT
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
+DOMAIN-SUFFIX,vpp.itunes.apple.com,DIRECT
+DOMAIN-SUFFIX,mzstatic.com,DIRECT
+DOMAIN-SUFFIX,*.mzstatic.com,DIRECT
+DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
 
-# Apple CDN / 边缘
+# Real-time services / communications
+DOMAIN-SUFFIX,gc.apple.com,DIRECT
+DOMAIN-SUFFIX,call.apple.com,DIRECT
+DOMAIN-SUFFIX,ws-ee-maidsvc.icloud.com,DIRECT
+
+# CDN / edge / DNS / Akamai
 DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
+DOMAIN-SUFFIX,apple-dns.net,DIRECT
 DOMAIN-SUFFIX,akadns.net,DIRECT
 DOMAIN-SUFFIX,akamaiedge.net,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
 
-# Apple IPv6 安全放行
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
-DOMAIN-SUFFIX,gc.apple.com,DIRECT
-DOMAIN-SUFFIX,push.apple.com,DIRECT
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
+# Misc / business & education related
+DOMAIN-SUFFIX,api.ent.apple.com,DIRECT
+DOMAIN-SUFFIX,api.edu.apple.com,DIRECT
+DOMAIN-SUFFIX,api-business.apple.com,DIRECT
+DOMAIN-SUFFIX,api-school.apple.com,DIRECT
+DOMAIN-SUFFIX,business.apple.com,DIRECT
+DOMAIN-SUFFIX,school.apple.com,DIRECT
+
+# === End Apple critical list ===
