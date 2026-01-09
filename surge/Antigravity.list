@@ -1,0 +1,33 @@
+# Google Antigravity 核心域名
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antigravity.dev
+DOMAIN-KEYWORD,antigravity
+
+# 专用 API 与云端服务 (根据 2026 最新日志抓取)
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,agent-artifacts.googleusercontent.com
+DOMAIN-SUFFIX,cloudfunctions.net
+DOMAIN-SUFFIX,firebaseio.com
+
+# Antigravity 主程序及 Helper
+PROCESS-NAME,Antigravity
+PROCESS-NAME,Antigravity Helper
+PROCESS-NAME,Antigravity Helper (Plugin)
+PROCESS-NAME,Antigravity Helper (Renderer)
+
+# 核心 Language Server (Apple Silicon 环境)
+PROCESS-NAME,language_server_macos_arm
+PROCESS-NAME,language_server_macos_arm64
+
+# 浏览器驱动 (Antigravity 自动化验证功能)
+PROCESS-NAME,chrome_driver_macos
+
+# Gemini / Google AI Studio
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aistudio.google.com
+
+# 备选模型 (Antigravity 支持调用 Claude 4.5/GPT-OSS)
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,openai.com
