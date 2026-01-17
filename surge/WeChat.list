@@ -1,0 +1,13 @@
+# 微信进程发出的 QUIC/UDP 流量优先直连（避免 MITM 导致图片加载失败）
+AND,((PROCESS-NAME,WeChat), (PROTOCOL,UDP), (DEST-PORT,443))
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,weixin.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,qpic.cn
+DOMAIN-SUFFIX,qlogo.cn
+DOMAIN-SUFFIX,wechatpay.com
+DOMAIN-SUFFIX,wxpay.com
+DOMAIN-SUFFIX,wxs.qq.com
+DOMAIN-SUFFIX,mmbiz.qpic.cn
+DOMAIN-SUFFIX,mmbiz.qlogo.cn
