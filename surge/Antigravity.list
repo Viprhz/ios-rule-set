@@ -1,6 +1,7 @@
 # Google Antigravity 核心域名
 DOMAIN-SUFFIX,antigravity.google
 DOMAIN-SUFFIX,antigravity.dev
+DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-KEYWORD,antigravity
 
 # 专用 API 与云端服务 (根据 2026 最新日志抓取)
