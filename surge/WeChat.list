@@ -11,3 +11,8 @@ DOMAIN-SUFFIX,wxpay.com
 DOMAIN-SUFFIX,wxs.qq.com
 DOMAIN-SUFFIX,mmbiz.qpic.cn
 DOMAIN-SUFFIX,mmbiz.qlogo.cn
+
+# Auto-added from Surge rule review (2026-04-24)
+DOMAIN,badjs.weixinbridge.com,DIRECT
+DOMAIN,i.work.weixin.qq.com,DIRECT
+DOMAIN,wxapp.tc.qq.com,DIRECT

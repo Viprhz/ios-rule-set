@@ -76,4 +76,12 @@ DOMAIN-SUFFIX,api-school.apple.com,DIRECT
 DOMAIN-SUFFIX,business.apple.com,DIRECT
 DOMAIN-SUFFIX,school.apple.com,DIRECT
 
+# Auto-added from Surge rule review (2026-04-24)
+DOMAIN,appstoreconnect.apple.com,DIRECT
+DOMAIN,gateway.icloud.com.cn,DIRECT
+DOMAIN,ocsp2.apple.com,DIRECT
+DOMAIN,pancake.apple.com,DIRECT
+DOMAIN,weatherkit.apple.com,DIRECT
+DOMAIN,www.apple.com,DIRECT
+
 # === End Apple critical list ===
