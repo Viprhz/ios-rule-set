@@ -87,3 +87,7 @@ DOMAIN,weatherkit.apple.com,DIRECT
 DOMAIN,www.apple.com,DIRECT
 
 # === End Apple critical list ===
+
+# Auto-added from Surge rule review (2026-04-25)
+DOMAIN,testflight.apple.com,🇸🇬新加坡 01|1x SG TAG
+DOMAIN,device-config.pcms.apple.com,DIRECT
