@@ -89,5 +89,8 @@ DOMAIN,www.apple.com,DIRECT
 # === End Apple critical list ===
 
 # Auto-added from Surge rule review (2026-04-25)
-DOMAIN,testflight.apple.com,🇸🇬新加坡 01|1x SG TAG
+DOMAIN,testflight.apple.com,DIRECT
 DOMAIN,device-config.pcms.apple.com,DIRECT
+DOMAIN,account.apple.com,DIRECT
+DOMAIN,fbs.smoot.apple.com,DIRECT
+DOMAIN,configuration.ls.apple.com,DIRECT
