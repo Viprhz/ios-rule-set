@@ -104,3 +104,7 @@ DOMAIN,swdist.apple.com,DIRECT
 
 # Auto-added from Surge rule review (2026-04-28)
 DOMAIN,sylvan.apple.com,DIRECT
+
+# Auto-added from Surge rule review (2026-04-29)
+DOMAIN,iadsdk.apple.com,DIRECT
+DOMAIN,sas.pcms.apple.com,🇯🇵日本02|1x TAG
