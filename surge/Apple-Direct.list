@@ -101,3 +101,6 @@ DOMAIN,iphone-ld.apple.com,DIRECT
 
 # Auto-added from Surge rule review (2026-04-27)
 DOMAIN,swdist.apple.com,DIRECT
+
+# Auto-added from Surge rule review (2026-04-28)
+DOMAIN,sylvan.apple.com,DIRECT
