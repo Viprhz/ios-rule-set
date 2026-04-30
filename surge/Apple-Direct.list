@@ -112,5 +112,6 @@ DOMAIN,iadsdk.apple.com,DIRECT
 DOMAIN,sas.pcms.apple.com,🇯🇵日本02|1x TAG
 
 # Auto-added from Surge rule review (2026-04-30)
+DOMAIN,cl4-cn.apple.com,DIRECT
 DOMAIN,gateway.icloud.com,🇯🇵日本02|1x TAG
 DOMAIN,mask.icloud.com,🇯🇵日本02|1x TAG
