@@ -117,4 +117,5 @@ DOMAIN,gateway.icloud.com,🇯🇵日本02|1x TAG
 DOMAIN,mask.icloud.com,🇯🇵日本02|1x TAG
 
 # Auto-added from Surge rule review (2026-05-01)
+DOMAIN,experiments.apple.com,DIRECT
 DOMAIN,cl2-cn.apple.com,DIRECT
