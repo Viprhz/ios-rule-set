@@ -22,11 +22,11 @@ DOMAIN-SUFFIX,mesu.apple.com,DIRECT
 DOMAIN-SUFFIX,swscan.apple.com,DIRECT
 DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
 
-# Push / APNs
-DOMAIN-SUFFIX,push.apple.com,DIRECT
-DOMAIN-SUFFIX,api.push.apple.com,DIRECT
-# wildcard push (MDM/APNs)
-DOMAIN-SUFFIX,push.apple.com,DIRECT
+# Push / APNs (must go through proxy for reliable push notifications)
+DOMAIN-SUFFIX,push.apple.com,
+DOMAIN-SUFFIX,gateway.push.apple.com,
+DOMAIN-SUFFIX,api.push.apple.com,
+DOMAIN-SUFFIX,sandbox.push.apple.com,
 
 # Time / NTP (explicit hostnames)
 DOMAIN-SUFFIX,time.apple.com,DIRECT
