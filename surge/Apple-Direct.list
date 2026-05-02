@@ -23,10 +23,10 @@ DOMAIN-SUFFIX,swscan.apple.com,DIRECT
 DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
 
 # Push / APNs (must go through proxy for reliable push notifications)
-DOMAIN-SUFFIX,push.apple.com,
-DOMAIN-SUFFIX,gateway.push.apple.com,
-DOMAIN-SUFFIX,api.push.apple.com,
-DOMAIN-SUFFIX,sandbox.push.apple.com,
+DOMAIN-SUFFIX,push.apple.com,Proxy
+DOMAIN-SUFFIX,gateway.push.apple.com,Proxy
+DOMAIN-SUFFIX,api.push.apple.com,Proxy
+DOMAIN-SUFFIX,sandbox.push.apple.com,Proxy
 
 # Time / NTP (explicit hostnames)
 DOMAIN-SUFFIX,time.apple.com,DIRECT
