@@ -119,3 +119,9 @@ DOMAIN,mask.icloud.com,🇯🇵日本02|1x TAG
 # Auto-added from Surge rule review (2026-05-01)
 DOMAIN,experiments.apple.com,DIRECT
 DOMAIN,cl2-cn.apple.com,DIRECT
+
+# Auto-added from Surge rule review (2026-05-06)
+DOMAIN,support.apple.com,DIRECT
+DOMAIN,amp-api.music.apple.com,DIRECT
+DOMAIN,vod-ap-aoc.tv.apple.com,🇸🇬新加坡 01|1x SG TAG
+DOMAIN,amp-api.videos.apple.com,QUIC-BLOCK
