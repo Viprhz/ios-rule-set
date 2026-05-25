@@ -16,3 +16,6 @@ IP-CIDR,182.140.221.62/32,DIRECT,no-resolve
 
 # Auto-added from Surge rule review (2026-05-21)
 IP-CIDR,182.140.221.61/32,DIRECT,no-resolve
+
+# Auto-added from Surge rule review (2026-05-25)
+IP-CIDR,125.64.25.107/32,DIRECT,no-resolve
