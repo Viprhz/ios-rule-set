@@ -125,3 +125,8 @@ DOMAIN,support.apple.com,DIRECT
 DOMAIN,amp-api.music.apple.com,DIRECT
 DOMAIN,vod-ap-aoc.tv.apple.com,🇸🇬新加坡 01|1x SG TAG
 DOMAIN,amp-api.videos.apple.com,QUIC-BLOCK
+
+# Auto-added from Surge rule review (2026-05-27)
+DOMAIN,ipcdn.apple.com,DIRECT
+DOMAIN,help.apple.com,🇯🇵日本02|1x TAG
+DOMAIN,cds.apple.com,DIRECT
