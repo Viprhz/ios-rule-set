@@ -137,3 +137,6 @@ DOMAIN,pba0.apple.com,DIRECT
 # Auto-added from Surge rule review (2026-06-14)
 DOMAIN,securemetrics.apple.com,🇸🇬新加坡 03|1x SG TAG
 DOMAIN,appleseedcdn.apple.com,🇸🇬新加坡 03|1x SG TAG
+
+# Auto-added from Surge rule review (2026-06-15)
+DOMAIN,wps.apple.com,🇸🇬新加坡 01|1x SG TAG
