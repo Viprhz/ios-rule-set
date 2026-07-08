@@ -43,3 +43,6 @@ IP-CIDR,221.236.27.143/32,DIRECT,no-resolve
 
 # Auto-added from Surge rule review (2026-07-07)
 IP-CIDR,221.236.27.155/32,DIRECT,no-resolve
+
+# Auto-added from Surge rule review (2026-07-08)
+IP-CIDR,221.236.27.182/32,DIRECT,no-resolve
