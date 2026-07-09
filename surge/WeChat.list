@@ -23,3 +23,6 @@ DOMAIN,launchwxacode.wxqcloud.qq.com.cn,DIRECT
 # Auto-added from Surge rule review (2026-04-30)
 DOMAIN,h.trace.qq.com,DIRECT
 DOMAIN,prewxacode.wxqcloud.qq.com.cn,DIRECT
+
+# Auto-added from Surge rule review (2026-07-09)
+DOMAIN,szextshort.weixin.qq.com,DIRECT
