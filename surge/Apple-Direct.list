@@ -146,3 +146,8 @@ DOMAIN,konut-cdn.apple.com,🇸🇬新加坡 01|1x SG TAG
 
 # Auto-added from Surge rule review (2026-07-06)
 DOMAIN,xhname.com,🇺🇸美国-洛杉矶 01|1x TAG
+
+# Auto-added from Surge rule review (2026-07-12)
+DOMAIN,www.apple.com.cn,DIRECT
+DOMAIN,km.support.apple.com,DIRECT
+DOMAIN,cdsassets.apple.com,DIRECT
