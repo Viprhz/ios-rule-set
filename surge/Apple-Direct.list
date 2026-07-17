@@ -151,3 +151,8 @@ DOMAIN,xhname.com,🇺🇸美国-洛杉矶 01|1x TAG
 DOMAIN,www.apple.com.cn,DIRECT
 DOMAIN,km.support.apple.com,DIRECT
 DOMAIN,cdsassets.apple.com,DIRECT
+
+# Auto-added from Surge rule review (2026-07-17)
+DOMAIN,xcode-cdn.apple.com,🇭🇰香港 02|1x HK TAG
+DOMAIN,devimages-cdn.apple.com,DIRECT
+DOMAIN,developerservices2.apple.com,🇭🇰香港 02|1x HK TAG
