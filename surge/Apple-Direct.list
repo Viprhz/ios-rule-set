@@ -156,3 +156,6 @@ DOMAIN,cdsassets.apple.com,DIRECT
 DOMAIN,xcode-cdn.apple.com,🇭🇰香港 02|1x HK TAG
 DOMAIN,devimages-cdn.apple.com,DIRECT
 DOMAIN,developerservices2.apple.com,🇭🇰香港 02|1x HK TAG
+
+# Auto-added from Surge rule review (2026-07-18)
+DOMAIN,xcode-cdn.apple.com,🇭🇰香港 01|1x HK TAG
