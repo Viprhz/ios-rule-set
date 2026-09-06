@@ -162,3 +162,7 @@ DOMAIN,xcode-cdn.apple.com,🇭🇰香港 01|1x HK TAG
 
 # Auto-added from Surge rule review (2026-08-16)
 DOMAIN,developer.apple.com,🇸🇬新加坡 01|1x SG TAG
+
+# Auto-added from Surge rule review (2026-09-06)
+DOMAIN,weather-edge.apple.com,🇭🇰香港 02|1x HK TAG
+DOMAIN,news-edge.apple.com,🇭🇰香港 02|1x HK TAG
