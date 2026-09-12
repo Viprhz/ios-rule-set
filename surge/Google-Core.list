@@ -33,3 +33,6 @@ DOMAIN-SUFFIX,apis.google.com
 # Auto-added from Surge rule review (2026-09-06)
 DOMAIN,jetski-webchannel.googleapis.com,🇭🇰香港 02|1x HK TAG
 DOMAIN,daily-cloudcode-pa.googleapis.com,🇭🇰香港 02|1x HK TAG
+
+# Auto-added from Surge rule review (2026-09-13)
+DOMAIN,jetski-webchannel.googleapis.com,🇺🇸美国-洛杉矶-HY2
