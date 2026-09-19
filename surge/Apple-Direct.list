@@ -23,10 +23,8 @@ DOMAIN-SUFFIX,swscan.apple.com
 DOMAIN-SUFFIX,swcdn.apple.com
 
 # Push / APNs (must go through proxy for reliable push notifications)
-DOMAIN-SUFFIX,push.apple.com,Proxy
-DOMAIN-SUFFIX,gateway.push.apple.com,Proxy
-DOMAIN-SUFFIX,api.push.apple.com,Proxy
-DOMAIN-SUFFIX,sandbox.push.apple.com,Proxy
+DOMAIN-SUFFIX,push.apple.com
+
 
 # Time / NTP (explicit hostnames)
 DOMAIN-SUFFIX,time.apple.com
@@ -77,7 +75,6 @@ DOMAIN-SUFFIX,school.apple.com
 DOMAIN,gsas.apple.com
 DOMAIN,gsa.apple.com
 DOMAIN,appstoreconnect.apple.com
-DOMAIN,gateway.icloud.com.cn
 DOMAIN,ocsp2.apple.com
 DOMAIN,pancake.apple.com
 DOMAIN,weatherkit.apple.com
@@ -93,7 +90,7 @@ DOMAIN,fbs.smoot.apple.com
 DOMAIN,configuration.ls.apple.com
 
 # Auto-added from Surge rule review (2026-04-26)
-DOMAIN,gdmf-ados.apple.com,🇸🇬新加坡 01|1x SG TAG
+DOMAIN,gdmf-ados.apple.com
 DOMAIN,iphone-ld.apple.com
 
 # Auto-added from Surge rule review (2026-04-27)
@@ -106,12 +103,10 @@ DOMAIN,sylvan.apple.com
 DOMAIN,cf.iadsdk.apple.com
 DOMAIN,swallow.apple.com
 DOMAIN,iadsdk.apple.com
-DOMAIN,sas.pcms.apple.com,🇯🇵日本02|1x TAG
+DOMAIN,sas.pcms.apple.com
 
 # Auto-added from Surge rule review (2026-04-30)
 DOMAIN,cl4-cn.apple.com
-DOMAIN,gateway.icloud.com,🇯🇵日本02|1x TAG
-DOMAIN,mask.icloud.com,🇯🇵日本02|1x TAG
 
 # Auto-added from Surge rule review (2026-05-01)
 DOMAIN,experiments.apple.com
@@ -120,26 +115,25 @@ DOMAIN,cl2-cn.apple.com
 # Auto-added from Surge rule review (2026-05-06)
 DOMAIN,support.apple.com
 DOMAIN,amp-api.music.apple.com
-DOMAIN,vod-ap-aoc.tv.apple.com,🇸🇬新加坡 01|1x SG TAG
-DOMAIN,amp-api.videos.apple.com,QUIC-BLOCK
+
 
 # Auto-added from Surge rule review (2026-05-27)
 DOMAIN,ipcdn.apple.com
-DOMAIN,help.apple.com,🇯🇵日本02|1x TAG
+DOMAIN,help.apple.com
 DOMAIN,cds.apple.com
 
 # Auto-added from Surge rule review (2026-05-31)
 DOMAIN,pba0.apple.com
 
 # Auto-added from Surge rule review (2026-06-14)
-DOMAIN,securemetrics.apple.com,🇸🇬新加坡 03|1x SG TAG
-DOMAIN,appleseedcdn.apple.com,🇸🇬新加坡 03|1x SG TAG
+DOMAIN,securemetrics.apple.com
+DOMAIN,appleseedcdn.apple.com
 
 # Auto-added from Surge rule review (2026-06-15)
-DOMAIN,wps.apple.com,🇸🇬新加坡 01|1x SG TAG
+DOMAIN,wps.apple.com
 
 # Auto-added from Surge rule review (2026-06-20)
-DOMAIN,konut-cdn.apple.com,🇸🇬新加坡 01|1x SG TAG
+DOMAIN,konut-cdn.apple.com
 
 # Auto-added from Surge rule review (2026-07-12)
 DOMAIN,www.apple.com.cn
@@ -147,13 +141,8 @@ DOMAIN,km.support.apple.com
 DOMAIN,cdsassets.apple.com
 
 # Auto-added from Surge rule review (2026-07-17)
-DOMAIN,xcode-cdn.apple.com,🇭🇰香港 02|1x HK TAG
 DOMAIN,devimages-cdn.apple.com
-DOMAIN,developerservices2.apple.com,🇭🇰香港 02|1x HK TAG
-
-# Auto-added from Surge rule review (2026-08-16)
-DOMAIN,developer.apple.com,🇸🇬新加坡 01|1x SG TAG
 
 # Auto-added from Surge rule review (2026-09-06)
-DOMAIN,weather-edge.apple.com,🇭🇰香港 02|1x HK TAG
-DOMAIN,news-edge.apple.com,🇭🇰香港 02|1x HK TAG
+DOMAIN,weather-edge.apple.com
+
