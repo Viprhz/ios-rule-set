@@ -1,26 +1,26 @@
 # === Apple - Critical DIRECT domains  ===
 # Authentication / Apple ID
-DOMAIN-SUFFIX,appleid.apple.com,DIRECT
-DOMAIN-SUFFIX,idmsa.apple.com,DIRECT
-DOMAIN-SUFFIX,identity.apple.com,DIRECT
-DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,idmsa.apple.com
+DOMAIN-SUFFIX,identity.apple.com
+DOMAIN-SUFFIX,appleid.cdn-apple.com
 
 # iCloud core
-DOMAIN-SUFFIX,icloud.com,DIRECT
-DOMAIN-SUFFIX,icloud-content.com,DIRECT
-DOMAIN-SUFFIX,statici.icloud.com,DIRECT
-DOMAIN-SUFFIX,static.ips.apple.com,DIRECT
-DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,statici.icloud.com
+DOMAIN-SUFFIX,static.ips.apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
 
 # Device activation / system checks
-DOMAIN-SUFFIX,albert.apple.com,DIRECT
-DOMAIN-SUFFIX,gs.apple.com,DIRECT
-DOMAIN-SUFFIX,humb.apple.com,DIRECT
-DOMAIN-SUFFIX,sq-device.apple.com,DIRECT
-DOMAIN-SUFFIX,tbsc.apple.com,DIRECT
-DOMAIN-SUFFIX,mesu.apple.com,DIRECT
-DOMAIN-SUFFIX,swscan.apple.com,DIRECT
-DOMAIN-SUFFIX,swcdn.apple.com,DIRECT
+DOMAIN-SUFFIX,albert.apple.com
+DOMAIN-SUFFIX,gs.apple.com
+DOMAIN-SUFFIX,humb.apple.com
+DOMAIN-SUFFIX,sq-device.apple.com
+DOMAIN-SUFFIX,tbsc.apple.com
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,swcdn.apple.com
 
 # Push / APNs (must go through proxy for reliable push notifications)
 DOMAIN-SUFFIX,push.apple.com,Proxy
@@ -29,110 +29,107 @@ DOMAIN-SUFFIX,api.push.apple.com,Proxy
 DOMAIN-SUFFIX,sandbox.push.apple.com,Proxy
 
 # Time / NTP (explicit hostnames)
-DOMAIN-SUFFIX,time.apple.com,DIRECT
-DOMAIN-SUFFIX,time-ios.apple.com,DIRECT
-DOMAIN-SUFFIX,time-macos.apple.com,DIRECT
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-SUFFIX,time-ios.apple.com
+DOMAIN-SUFFIX,time-macos.apple.com
 # also ensure UDP 123 is allowed in Surge network settings (if you use UDP rules)
 
 # MDM / Enrollment / Profiles
-DOMAIN-SUFFIX,iprofiles.apple.com,DIRECT
-DOMAIN-SUFFIX,mdmenrollment.apple.com,DIRECT
-DOMAIN-SUFFIX,deviceenrollment.apple.com,DIRECT
-DOMAIN-SUFFIX,deviceservices-external.apple.com,DIRECT
-DOMAIN-SUFFIX,gdmf.apple.com,DIRECT
-DOMAIN-SUFFIX,axm-servicediscovery.apple.com,DIRECT
-DOMAIN-SUFFIX,axm-adm-enroll.apple.com,DIRECT
-DOMAIN-SUFFIX,axm-adm-mdm.apple.com,DIRECT
+DOMAIN-SUFFIX,iprofiles.apple.com
+DOMAIN-SUFFIX,mdmenrollment.apple.com
+DOMAIN-SUFFIX,deviceenrollment.apple.com
+DOMAIN-SUFFIX,deviceservices-external.apple.com
+DOMAIN-SUFFIX,gdmf.apple.com
+DOMAIN-SUFFIX,axm-servicediscovery.apple.com
+DOMAIN-SUFFIX,axm-adm-enroll.apple.com
+DOMAIN-SUFFIX,axm-adm-mdm.apple.com
 
 # App Store / iTunes / VPP
-DOMAIN-SUFFIX,itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,apps.apple.com,DIRECT
-DOMAIN-SUFFIX,buy.itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,store.apple.com,DIRECT
-DOMAIN-SUFFIX,vpp.itunes.apple.com,DIRECT
-DOMAIN-SUFFIX,mzstatic.com,DIRECT
-DOMAIN-SUFFIX,*.mzstatic.com,DIRECT
-DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,buy.itunes.apple.com
+DOMAIN-SUFFIX,store.apple.com
+DOMAIN-SUFFIX,vpp.itunes.apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-WILDCARD,*.mzstatic.com
 
 # Real-time services / communications
-DOMAIN-SUFFIX,gc.apple.com,DIRECT
-DOMAIN-SUFFIX,call.apple.com,DIRECT
-DOMAIN-SUFFIX,ws-ee-maidsvc.icloud.com,DIRECT
+DOMAIN-SUFFIX,gc.apple.com
+DOMAIN-SUFFIX,call.apple.com
+DOMAIN-SUFFIX,ws-ee-maidsvc.icloud.com
 
 # CDN / edge / DNS / Akamai
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
-DOMAIN-SUFFIX,apple-dns.net,DIRECT
-DOMAIN-SUFFIX,akadns.net,DIRECT
-DOMAIN-SUFFIX,akamaiedge.net,DIRECT
-DOMAIN-SUFFIX,cdn-apple.com,DIRECT
-DOMAIN-SUFFIX,appleid.cdn-apple.com,DIRECT
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,akamaiedge.net
+
 
 # Misc / business & education related
-DOMAIN-SUFFIX,api.ent.apple.com,DIRECT
-DOMAIN-SUFFIX,api.edu.apple.com,DIRECT
-DOMAIN-SUFFIX,api-business.apple.com,DIRECT
-DOMAIN-SUFFIX,api-school.apple.com,DIRECT
-DOMAIN-SUFFIX,business.apple.com,DIRECT
-DOMAIN-SUFFIX,school.apple.com,DIRECT
+DOMAIN-SUFFIX,api.ent.apple.com
+DOMAIN-SUFFIX,api.edu.apple.com
+DOMAIN-SUFFIX,api-business.apple.com
+DOMAIN-SUFFIX,api-school.apple.com
+DOMAIN-SUFFIX,business.apple.com
+DOMAIN-SUFFIX,school.apple.com
 
 # Auto-added from Surge rule review (2026-04-24)
-DOMAIN,gsas.apple.com,DIRECT
-DOMAIN,gsa.apple.com,DIRECT
-DOMAIN,appstoreconnect.apple.com,DIRECT
-DOMAIN,gateway.icloud.com.cn,DIRECT
-DOMAIN,ocsp2.apple.com,DIRECT
-DOMAIN,pancake.apple.com,DIRECT
-DOMAIN,weatherkit.apple.com,DIRECT
-DOMAIN,www.apple.com,DIRECT
+DOMAIN,gsas.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,appstoreconnect.apple.com
+DOMAIN,gateway.icloud.com.cn
+DOMAIN,ocsp2.apple.com
+DOMAIN,pancake.apple.com
+DOMAIN,weatherkit.apple.com
+DOMAIN,www.apple.com
 
 # === End Apple critical list ===
 
 # Auto-added from Surge rule review (2026-04-25)
-DOMAIN,testflight.apple.com,DIRECT
-DOMAIN,device-config.pcms.apple.com,DIRECT
-DOMAIN,account.apple.com,DIRECT
-DOMAIN,fbs.smoot.apple.com,DIRECT
-DOMAIN,configuration.ls.apple.com,DIRECT
+DOMAIN,testflight.apple.com
+DOMAIN,device-config.pcms.apple.com
+DOMAIN,account.apple.com
+DOMAIN,fbs.smoot.apple.com
+DOMAIN,configuration.ls.apple.com
 
 # Auto-added from Surge rule review (2026-04-26)
 DOMAIN,gdmf-ados.apple.com,🇸🇬新加坡 01|1x SG TAG
-DOMAIN,iphone-ld.apple.com,DIRECT
+DOMAIN,iphone-ld.apple.com
 
 # Auto-added from Surge rule review (2026-04-27)
-DOMAIN,swdist.apple.com,DIRECT
+DOMAIN,swdist.apple.com
 
 # Auto-added from Surge rule review (2026-04-28)
-DOMAIN,sylvan.apple.com,DIRECT
+DOMAIN,sylvan.apple.com
 
 # Auto-added from Surge rule review (2026-04-29)
-DOMAIN,cf.iadsdk.apple.com,DIRECT
-DOMAIN,swallow.apple.com,DIRECT
-DOMAIN,iadsdk.apple.com,DIRECT
+DOMAIN,cf.iadsdk.apple.com
+DOMAIN,swallow.apple.com
+DOMAIN,iadsdk.apple.com
 DOMAIN,sas.pcms.apple.com,🇯🇵日本02|1x TAG
 
 # Auto-added from Surge rule review (2026-04-30)
-DOMAIN,cl4-cn.apple.com,DIRECT
+DOMAIN,cl4-cn.apple.com
 DOMAIN,gateway.icloud.com,🇯🇵日本02|1x TAG
 DOMAIN,mask.icloud.com,🇯🇵日本02|1x TAG
 
 # Auto-added from Surge rule review (2026-05-01)
-DOMAIN,experiments.apple.com,DIRECT
-DOMAIN,cl2-cn.apple.com,DIRECT
+DOMAIN,experiments.apple.com
+DOMAIN,cl2-cn.apple.com
 
 # Auto-added from Surge rule review (2026-05-06)
-DOMAIN,support.apple.com,DIRECT
-DOMAIN,amp-api.music.apple.com,DIRECT
+DOMAIN,support.apple.com
+DOMAIN,amp-api.music.apple.com
 DOMAIN,vod-ap-aoc.tv.apple.com,🇸🇬新加坡 01|1x SG TAG
 DOMAIN,amp-api.videos.apple.com,QUIC-BLOCK
 
 # Auto-added from Surge rule review (2026-05-27)
-DOMAIN,ipcdn.apple.com,DIRECT
+DOMAIN,ipcdn.apple.com
 DOMAIN,help.apple.com,🇯🇵日本02|1x TAG
-DOMAIN,cds.apple.com,DIRECT
+DOMAIN,cds.apple.com
 
 # Auto-added from Surge rule review (2026-05-31)
-DOMAIN,pba0.apple.com,DIRECT
+DOMAIN,pba0.apple.com
 
 # Auto-added from Surge rule review (2026-06-14)
 DOMAIN,securemetrics.apple.com,🇸🇬新加坡 03|1x SG TAG
@@ -144,21 +141,15 @@ DOMAIN,wps.apple.com,🇸🇬新加坡 01|1x SG TAG
 # Auto-added from Surge rule review (2026-06-20)
 DOMAIN,konut-cdn.apple.com,🇸🇬新加坡 01|1x SG TAG
 
-# Auto-added from Surge rule review (2026-07-06)
-DOMAIN,xhname.com,🇺🇸美国-洛杉矶 01|1x TAG
-
 # Auto-added from Surge rule review (2026-07-12)
-DOMAIN,www.apple.com.cn,DIRECT
-DOMAIN,km.support.apple.com,DIRECT
-DOMAIN,cdsassets.apple.com,DIRECT
+DOMAIN,www.apple.com.cn
+DOMAIN,km.support.apple.com
+DOMAIN,cdsassets.apple.com
 
 # Auto-added from Surge rule review (2026-07-17)
 DOMAIN,xcode-cdn.apple.com,🇭🇰香港 02|1x HK TAG
-DOMAIN,devimages-cdn.apple.com,DIRECT
+DOMAIN,devimages-cdn.apple.com
 DOMAIN,developerservices2.apple.com,🇭🇰香港 02|1x HK TAG
-
-# Auto-added from Surge rule review (2026-07-18)
-DOMAIN,xcode-cdn.apple.com,🇭🇰香港 01|1x HK TAG
 
 # Auto-added from Surge rule review (2026-08-16)
 DOMAIN,developer.apple.com,🇸🇬新加坡 01|1x SG TAG
