@@ -35,5 +35,6 @@ DOMAIN-SUFFIX,jetski-webchannel.googleapis.com
 DOMAIN-SUFFIX,daily-cloudcode-pa.googleapis.com
 
 # Auto-added from Surge rule review (2026-09-19)
+DOMAIN,daily-cloudcode-pa.googleapis.com,🇺🇸美国-洛杉矶-HY2
 DOMAIN,www.googleapis.com
 DOMAIN,play.googleapis.com
