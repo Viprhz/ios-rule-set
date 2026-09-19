@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,accounts.google.com
 # --- Developer / Notebook ---
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,notebooklm
-DOMAIN-KEYWORD,googleusercontent
 DOMAIN-KEYWORD,developerprofiles
 DOMAIN-KEYWORD,generativelanguage
 
