@@ -13,16 +13,16 @@ DOMAIN-SUFFIX,mmbiz.qpic.cn
 DOMAIN-SUFFIX,mmbiz.qlogo.cn
 
 # Auto-added from Surge rule review (2026-04-24)
-DOMAIN,badjs.weixinbridge.com,DIRECT
-DOMAIN,i.work.weixin.qq.com,DIRECT
-DOMAIN,wxapp.tc.qq.com,DIRECT
+DOMAIN,badjs.weixinbridge.com
+DOMAIN,i.work.weixin.qq.com
+DOMAIN,wxapp.tc.qq.com
 
 # Auto-added from Surge rule review (2026-04-29)
-DOMAIN,launchwxacode.wxqcloud.qq.com.cn,DIRECT
+DOMAIN,launchwxacode.wxqcloud.qq.com.cn
 
 # Auto-added from Surge rule review (2026-04-30)
-DOMAIN,h.trace.qq.com,DIRECT
-DOMAIN,prewxacode.wxqcloud.qq.com.cn,DIRECT
+DOMAIN,h.trace.qq.com
+DOMAIN,prewxacode.wxqcloud.qq.com.cn
 
 # Auto-added from Surge rule review (2026-07-09)
-DOMAIN,szextshort.weixin.qq.com,DIRECT
+DOMAIN,szextshort.weixin.qq.com
